@@ -1,0 +1,43 @@
+@charset "UTF-8"
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #024059, #026873, #04BF8A );
+     display: flex;
+    flex-direction: column;   /* empilha o título e o main */
+    align-items: center;      /* centraliza tudo no eixo horizontal */
+}
+
+h1 {
+    height: 30%;
+    font-size: 60px;
+    text-shadow: 7px 7px 5px #023f46;
+    text-align: center;
+    color: #04BF8A   
+}
+
+main {
+    max-width: 1500px;
+    background-color: #024059;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #012a3a;
+    
+    display: flex;            /* ativa o flexbox */
+    justify-content: center;  /* centraliza na horizontal */
+    align-items: center;      /* centraliza na vertical */
+    flex-wrap: wrap;          /* deixa quebrar linha se tiver muitas imagens */
+    gap: 25px;              /* espaço entre as imagens (opcional) */
+}
