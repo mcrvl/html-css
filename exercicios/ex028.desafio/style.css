@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+header > h1 {
+    color: white;
+    font-family: Passion One;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    height: 200px;
+}
+
+article > p {
+    font-family: Sriracha;
+    font-size: 2em;
+}
