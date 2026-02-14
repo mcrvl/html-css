@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,23 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
         table {
             border: 1px solid black;
             border-collapse: collapse;
             width: 600px;
+            position: relative;
         }
 
-        td, th {
+        td,
+        th {
             border: 1px solid black;
             text-align: center;
             padding: 5px;
         }
-        thead, tfoot {
+
+        thead,
+        tfoot { 
             background-color: gray;
             color: white;
         }
@@ -32,8 +38,23 @@
             border: 1px solid black;
 
         }
+
+        tbody>tr:nth-child(2n) {
+            background-color: gray;
+        }
+
+        body>p {
+            max-width: 400px;
+        }
+
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(54, 54, 54);
+        }
     </style>
 </head>
+
 <body>
     <table>
         <caption>População por estado</caption>
@@ -64,6 +85,35 @@
             </tr>
         </tfoot>
     </table>
-
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in sapiente numquam, quia quis a atque quibusdam ad
+        doloribus. Laudantium eos incidunt laborum nam cum quos quibusdam illum, sint obcaecati? Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Officiis aperiam perferendis at placeat fugiat autem, veritatis
+        necessitatibus explicabo repellendus sunt quia deleniti libero quos cum odit tempora laborum perspiciatis quod!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi molestiae eos impedit ipsa distinctio optio
+        quidem, ex ratione amet aliquid eius obcaecati. Quasi, ex numquam esse dolore neque laudantium debitis. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Dicta corporis quasi, illum aliquid laborum eum labore omnis
+        adipisci necessitatibus molestiae tempore repudiandae excepturi, nihil, voluptatem iure voluptas blanditiis
+        nulla velit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere voluptates, veniam id temporibus
+        reprehenderit ducimus praesentium adipisci labore incidunt expedita laborum, ullam voluptatem illo esse
+        quibusdam aut delectus deleniti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae laborum ex
+        eligendi amet quia iure, quo consequatur qui nisi voluptatum officiis distinctio ea? Iusto, accusamus distinctio
+        deserunt eveniet provident consequatur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex a enim
+        ducimus dolorum totam deleniti ratione dolorem, expedita itaque vitae impedit quas odit magni nesciunt
+        repudiandae in inventore repellat aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        sed iure fugiat hic fuga repellendus a amet libero quam consectetur neque, impedit quaerat cupiditate!
+        Consequuntur error consectetur dolorum velit aliquid.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima saepe dicta sapiente hic dolores vel architecto
+        rem nesciunt, doloremque impedit minus libero expedita quae commodi possimus, assumenda illo inventore?
+        Officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sunt quae architecto laboriosam atque
+        repellat modi suscipit a aut dolores, quia iure laudantium, pariatur laborum nam. Fugiat laboriosam itaque
+        quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi dicta consequatur soluta quae
+        incidunt et? Ut minus asperiores vitae tempore qui sint aut fugiat animi ipsam? Velit, rem rerum. Lorem ipsum
+        dolor, sit amet consectetur adipisicing elit. Deleniti temporibus inventore atque aliquam hic magni maxime
+        perferendis distinctio, exercitationem, nulla ratione alias veritatis? Assumenda dolor quo asperiores neque
+        ullam ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quisquam maxime perferendis quod
+        dolore nemo pariatur fuga deserunt tempora ipsam. Officiis sunt necessitatibus dicta? Neque, porro. Id
+        necessitatibus nisi saepe?</p>
 </body>
+
 </html>
