@@ -39,6 +39,7 @@ body {
     margin-right: 15px;
     margin-top: 15px;
 }
+
 .logos img:hover {
     transform: scale(1.10);
     transition: transform 0.2s ease;
@@ -46,13 +47,15 @@ body {
 
 iframe#home {
     position: absolute;
+    top: 69px;
 
-    top: 79px;      /* AJUSTAR */
-    left: 21px;     /* AJUSTAR */
+    left: 21px;
 
-    width: 269px;   /* AJUSTAR */
-    height: 600px;  /* AJUSTAR */
+    width: 269px;
+
+    height: 484px;
 
     border: none;
     overflow: hidden;
+
 }
